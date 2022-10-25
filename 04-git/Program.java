@@ -1,8 +1,11 @@
-public class Main {
-  int x = 10;
+
+// komentarz
+
+public class New {
+  int x = 5;
 
   public static void main(String[] args) {
-    Main myObj = new Main();
-    System.out.println(myObj.x);
+    New myObj1 = new New();
+    System.out.println(myObj1.x);
   }
 }
