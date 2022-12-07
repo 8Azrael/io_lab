@@ -1,4 +1,2 @@
 # io_lab
-# Filip Sudziński
-# dzisiejsza data
-# zmiana 1
+# Filip Sudziński 148101
