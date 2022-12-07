@@ -130,6 +130,18 @@ Osoba chcąca zakupić produkt na aukcji.
 
 ---
 
+<a id="uc6"></a>
+### UC6: Otrzymanie informacji o stanie aukcji 
+
+**Aktorzy:** [Kupujący](#ac2), [Sprzedający](#ac1)
+
+---
+
+<a id="uc7"></a>
+### UC7: Modyfikacja danych produktu
+
+---
+
 ## Obiewkty biznesowe (inaczje obiekty dziedzinowe lub informatycjne)
 
 ### BO1: Aukcja
@@ -161,7 +173,9 @@ Aukcję wygrywa ten z [Kupujący](#ac2)ch, który w momencie jej zakończenia (u
 | UC1: Wystawienia produktu na aukcję               |    C   |    C    | ... |
 | UC2: Przekazanie produktu Kupującemu              |    D   |    D    | ... |
 | UC3: Zaoferowanie kwoty za produkt                |  R, U  |         | ... |
-| UC4: Przekazanie należności Sprzedającemu         |        |    D    | ... |
-| UC5: Otrzymanie informacji o wyniku aukcji        |    D   |    D    | ... |
+| UC4: Przekazanie należności Sprzedającemu         |    R   |         | ... |
+| UC5: Otrzymanie informacji o wyniku aukcji        |    R   |         | ... |
+| UC6: Otrzymanie informacji o stanie aukcji        |    R   |    R    | ... |
+| UC7: Modyfikacja danych produktu                  |    R   |   R, U  | ... |
 
 
